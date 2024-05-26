@@ -17,8 +17,9 @@ public class CourseApiApp {
 			 * 	It performs class path scan to read different annotations (e.g. controllers, classes, etc)
 			 * 	
 			 * Starts tomcat server. We did not have to download and install tomcat server because it came with springboot.
-			 * So we do not have to create a servlet container 
+			 * So we do not have to create a servlet container, springboot will handle it for us.
 		    ***/
 	}
+	
 
 }
