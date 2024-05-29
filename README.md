@@ -8,7 +8,7 @@ To run any project in this repository locally, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-github-username/Learning-SpringBoot.git
+    git clone https://github.com/MohammedAshrafulIslam/Learning-SpringBoot.git
     cd Learning-SpringBoot
     ```
 
