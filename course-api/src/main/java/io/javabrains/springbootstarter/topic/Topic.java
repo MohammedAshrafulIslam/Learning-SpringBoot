@@ -4,17 +4,18 @@ public class Topic {
 	
 	String name;
 	String description;
-	int id;
+	String id;
 	
 	
 	public Topic() {
 		
 	}
 	
-	public Topic(String name, String description, int id) {
+	public Topic(String id, String name, String description) {
+	
+		this.id = id;
 		this.name = name;
 		this.description = description;
-		this.id = id;
 	}
 	
 	
@@ -30,10 +31,10 @@ public class Topic {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public int getId() {
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	
